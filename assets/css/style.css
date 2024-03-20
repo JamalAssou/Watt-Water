@@ -64,6 +64,12 @@ body {
   transition: 500ms ease;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);
@@ -274,6 +280,17 @@ section {
       display: inline-block;
     }
   }
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
 }
 
 header .logo {
@@ -832,7 +849,7 @@ header ul li a.active {
 .low-highlight-cyan {
   letter-spacing: 2px;
   padding: 0 5px;
-  background: linear-gradient(to bottom, transparent 50%, #00ead3 50%);
+  background: linear-gradient(to bottom, transparent 50%, #ffd460 50%);
 }
 
 .low-highlight-pink {
@@ -844,7 +861,7 @@ header ul li a.active {
 .low-highlight-skin {
   letter-spacing: 2px;
   padding: 0 5px;
-  background: linear-gradient(to bottom, transparent 50%, #fff5b7 50%);
+  background: linear-gradient(to bottom, transparent 50%, #ffd460 50%);
 }
 
 .low-highlight-lightyellow {
@@ -1145,3 +1162,6 @@ footer ul li a.active {
   opacity: 1;
   visibility: visible;
 }
+
+
+

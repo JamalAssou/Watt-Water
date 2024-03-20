@@ -7,13 +7,13 @@
     <title>Watt&Water</title>
 
     <!-- Favicons -->
-    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./assets/logo_principal.png" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./assets/apple-touch-icon.png"
+      href="./assets/logo_principal.png"
     />
-    <link
+    <!--<link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -24,10 +24,8 @@
       type="image/png"
       sizes="16x16"
       href="./assets/favicon-16x16.png"
-    />
+    />-->
     <link rel="manifest" href="./assets/site.webmanifest" />
-
-    <meta name="author" content="AmreshSinha" />
     <meta
       name="description"
       content="Developer Portfolio centered around GlassMorphic UI"
@@ -38,7 +36,6 @@
     />
 
     <meta name="referrer" content="no-referrer-when-downgrade" />
-    <link rel="canonical" href="https://AmreshSinha.github.io/glassFolio/" />
 
     <link rel="stylesheet" href="./assets/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -67,13 +64,16 @@
         <div id="top" class="page-scroll"></div>
         <!-- Navbar -->
         <header>
-          <a href="#top" class="logo">Watt&Water</a>
+          <div>
+            <img src="assets/logo_principal.png">
+            <a href="#top" class="logo">Assistance Watt&Water</a>
+          </div>
+
           <ul>
             <li><a class="active page" href="#top" id="home-btn">Home</a></li>
             <li><a href="#about" class="page" id="about-btn">About Us</a></li>
-            <li><a href="#experience" class="page"id="service-btn">Services</a></li>
-            <li><a href="#experience" class="page"id="experience-btn">Experience</a></li>
-            <li><a href="#projects" class="page" id="project-btn">Projects</a></li>
+            <li><a href="#services" class="page"id="service-btn">Services</a></li>
+            <li><a href="#contact" class="page" id="project-btn">Contact</a></li>
             <li>
               <a href="#contact" class="enabledisable page" id="contact-btn"
                 >Contact</a
@@ -262,7 +262,7 @@
         <!-- 3rd Section -->
         <h2
           data-aos="fade-down" data-aos-duration="1500"
-          id="experience"
+          id="services"
           class="mob-h2 page-scroll"
           style="font-size: 56px; font-weight: 700; margin-top: 50px; text-align:center;"
         >
@@ -326,7 +326,9 @@
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <a href="#home" data-aos="fade-right" data-aos-duration="1000" class="buttons">More information</a>
+            <div class="center">
+              <a href="#home" data-aos="fade-right" data-aos-duration="1000" class="buttons">More information</a>
+            </div>
 
           </div>
           <div class="experience-card" data-aos="fade-right" data-aos-duration="2000">
@@ -404,7 +406,9 @@
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <a href="#home" data-aos="fade-right" data-aos-duration="1000" class="buttons">More information</a>
+            <div class="center">
+              <a href="#home" data-aos="fade-right" data-aos-duration="1000" class="buttons">More information</a>
+            </div>
           </div>
 
           <div class="experience-card" data-aos="fade-right" data-aos-duration="2500">
@@ -439,7 +443,9 @@
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <a href="#home" data-aos="fade-right" data-aos-duration="1000" class="buttons">More information</a>
+            <div class="center">
+              <a href="#home" data-aos="fade-right" data-aos-duration="1000" class="buttons">More information</a>
+            </div>
           </div>
 
 
@@ -447,108 +453,18 @@
         </div>
 
         <!-- 4th Section -->
-        <svg
-          xmlns="//www.w3.org/2000/svg"
-          version="1.1"
-          class="svg-filters"
-          style="display: none"
-        >
-          <defs>
-            <filter id="marker-shape">
-              <feTurbulence
-                type="fractalNoise"
-                baseFrequency="0 0.15"
-                numOctaves="1"
-                result="warp"
-              />
-              <feDisplacementMap
-                xChannelSelector="R"
-                yChannelSelector="G"
-                scale="30"
-                in="SourceGraphic"
-                in2="warp"
-              />
-            </filter>
-          </defs>
-        </svg>
+
         <h2
-          id="projects"
+          id="contact"
           class="mob-h2 page-scroll"
           style="font-size: 56px; font-weight: 700; margin-top: 50px"
         >
-          <span class="low-highlight-cyan">Projects</span>
+          <span class="low-highlight-cyan">Contact</span>
         </h2>
         <div class="projects" data-aos="fade-up" data-aos-duration="1500">
-          <div class="repo-card" data-repo="AmreshSinha/glassFolio"></div>
-          <div class="repo-card" data-repo="AmreshSinha/Covid19-API"></div>
-          <div
-            class="repo-card"
-            data-repo="AmreshSinha/Fake-SpeedTest-Generator"
-          ></div>
-          <div
-            class="repo-card"
-            data-repo="AmreshSinha/Webd-Template-CodingWeekIITG"
-          ></div>
-          <div class="repo-card" data-repo="AmreshSinha/Youtube-UI-Clone"></div>
+
         </div>
 
-        <!-- 5th Section -->
-        <!-- <h2 style="font-size:56px; font-weight: 700; margin-top: 50px;"><span class="low-highlight-lightyellow">Achievements</span></h2>
-        <div class="achievement-cards-div">
-
-          <div class="certificate-card">
-            <div class="certificate-image-div">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GSoC-icon.svg/1200px-GSoC-icon.svg.png" alt="GSOC" class="card-image">
-            </div>
-            <div class="certificate-detail-div">
-              <h5 class="card-title">Google Summer of Code</h5>
-              <p class="card-subtitle">Selected in GSOC 2021</p>
-            </div>
-            <div class="certificate-card-footer">
-              <span class="certificate-tag">GSOC</span>
-              <span class="certificate-tag">2021</span>
-              <span class="certificate-tag">Google</span>
-            </div>
-          </div>
-
-          <div class="certificate-card">
-            <div class="certificate-image-div">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GSoC-icon.svg/1200px-GSoC-icon.svg.png" alt="GSOC" class="card-image">
-            </div>
-            <div class="certificate-detail-div">
-              <h5 class="card-title">Google Summer of Code</h5>
-              <p class="card-subtitle">Selected in GSOC 2021</p>
-            </div>
-            <div class="certificate-card-footer">
-              <span class="certificate-tag">GSOC</span>
-              <span class="certificate-tag">2021</span>
-              <span class="certificate-tag">Google</span>
-            </div>
-          </div>
-
-          <div class="certificate-card">
-            <div class="certificate-image-div">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GSoC-icon.svg/1200px-GSoC-icon.svg.png" alt="GSOC" class="card-image">
-            </div>
-            <div class="certificate-detail-div">
-              <h5 class="card-title">Google Summer of Code</h5>
-              <p class="card-subtitle">Selected in GSOC 2021</p>
-            </div>
-            <div class="certificate-card-footer">
-              <span class="certificate-tag">GSOC</span>
-              <span class="certificate-tag">2021</span>
-              <span class="certificate-tag">Google</span>
-            </div>
-          </div>
-
-        </div> -->
-
-        <h2  id="contact"
-          class="mob-connect enabledisable page-scroll"
-          style="font-size: 40px; font-weight: 700; margin-top: 50px"
-        >
-          <span class="low-highlight-hazeskin">Connect with me</span>
-        </h2>
         <ul class="socialsites ">
           <li>
             <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
