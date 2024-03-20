@@ -49,6 +49,21 @@ body {
   display: inline-block;
 }
 
+.buttons{
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  color: black;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  background: hsla(0, 0%, 100%, 0.25);
+  box-shadow: 0 5px 10px rgba(241, 20, 20, 0.05);
+  transition: 500ms ease;
+}
+
 @keyframes wave-animation {
   0% {
     transform: rotate(0deg);
@@ -354,6 +369,36 @@ header ul li a.active {
   margin-right: 0px;
 }
 
+.column_electricity {
+  box-shadow: 0 0 1rem 0 rgb(239, 189, 3);
+  border-radius: 1rem;
+  backdrop-filter: blur(1rem);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 40px;
+}
+
+.column_water {
+  box-shadow: 0 0 1rem 0 rgb(55, 153, 234);
+  border-radius: 1rem;
+  backdrop-filter: blur(1rem);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 40px;
+}
+
+.column_heating {
+  box-shadow: 0 0 1rem 0 rgb(255, 128, 128);
+  border-radius: 1rem;
+  backdrop-filter: blur(1rem);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 40px;
+}
+
 @media (max-width: 900px) {
   .column-2 {
     position: relative;
@@ -406,21 +451,6 @@ header ul li a.active {
 
 .column p .column-p {
   font-size: 1rem;
-}
-
-.column a {
-  display: inline-block;
-  padding: 0.9rem 1.8rem;
-  color: black;
-  margin-top: 20px;
-  margin-right: 10px;
-  border-radius: 30px;
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-decoration: none;
-  background: hsla(0, 0%, 100%, 0.25);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
-  transition: 500ms ease;
 }
 
 .column a:hover {
@@ -512,12 +542,8 @@ header ul li a.active {
   background: rgba(255, 255, 255, 0.5);
 }
 
-.fa-github {
+.fa-tiktok {
   color: #333;
-}
-
-.fa-linkedin {
-  color: #0077b5;
 }
 
 .fa-facebook {
@@ -812,7 +838,7 @@ header ul li a.active {
 .low-highlight-pink {
   letter-spacing: 2px;
   padding: 0 5px;
-  background: linear-gradient(to bottom, transparent 50%, #ff6db7 50%);
+  background: linear-gradient(to bottom, transparent 50%, #ffd460 50%);
 }
 
 .low-highlight-skin {
